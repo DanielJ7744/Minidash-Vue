@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import 'modules/typography';
+}
+
+@layer components {
+  @import 'modules/buttons';
+}
+
+@import 'modules/common';
+@import 'modules/fonts';
+@import 'modules/icons';
+@import 'modules/forms';
+@import 'modules/prime-vue';
+
+// Legacy packages
+@import 'v-calendar/dist/style.css';
+@import 'modules/v-calendar';

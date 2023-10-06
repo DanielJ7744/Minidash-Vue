@@ -1,0 +1,45 @@
+.v-calendar__custom {
+  input[type='date']::-webkit-inner-spin-button {
+    display: none;
+  }
+  input[type='date']::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+  input:disabled {
+    @apply text-gray-800 bg-white;
+  }
+  .vc-container {
+    @apply rounded-sm #{!important};
+  }
+  .vc-container .vc-title {
+    @apply text-gray-800 font-normal text-sm;
+  }
+  .vc-container .vc-weekday {
+    @apply text-gray-500 font-normal text-xs;
+  }
+  .vc-highlight {
+    @apply bg-primary-400 #{!important};
+  }
+  .vc-highlight-base-start,
+  .vc-highlight-base-middle,
+  .vc-highlight-base-end {
+    @apply bg-primary-100 rounded-none #{!important};
+  }
+  .vc-day-box-left-center + .vc-day-layer {
+    .vc-highlight {
+      @apply bg-primary-400 rounded-tl-sm rounded-bl-sm #{!important};
+    }
+  }
+  .vc-day-box-right-center + .vc-day-layer {
+    .vc-highlight {
+      @apply bg-primary-400 rounded-tr-sm rounded-br-sm #{!important};
+    }
+  }
+  .vc-day-content {
+    @apply rounded-sm active:border-0 text-xs #{!important};
+  }
+  .is-today .vc-day-content {
+    @apply bg-primary-400 text-white #{!important};
+    // color: $color-background !important;
+  }
+}

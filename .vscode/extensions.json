@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "mhutchie.git-graph",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}

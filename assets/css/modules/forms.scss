@@ -1,0 +1,31 @@
+label {
+  @apply block text-xs font-medium leading-none text-gray-500;
+}
+
+[type='text'],
+[type='email'],
+[type='password'],
+[type='number'],
+[type='date'],
+[type='url'],
+[type='search'],
+textarea,
+select {
+  @apply focus:text-primary focus:border-primary focus:ring-primary block w-full rounded-sm border-gray-300 text-sm font-normal placeholder:text-gray-400 disabled:bg-gray-50 disabled:text-gray-400;
+}
+
+[type='file'] {
+  @apply file:bg-primary block w-full text-sm text-gray-700 file:mr-3 file:cursor-pointer file:rounded file:border-0 file:py-2 file:px-3 file:font-medium file:text-white;
+}
+
+[type='radio'] {
+  @apply text-primary-600 focus:ring-primary h-4 w-4 border-gray-300;
+
+  + label {
+    @apply ml-1;
+  }
+}
+
+[type='checkbox'] {
+  @apply text-primary-600 focus:ring-primary h-4 w-4 rounded border-gray-300 disabled:cursor-not-allowed disabled:text-gray-300;
+}

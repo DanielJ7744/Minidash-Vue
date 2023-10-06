@@ -1,0 +1,41 @@
+html {
+  @apply h-full overflow-hidden;
+}
+
+body {
+  @apply h-full min-w-[320px] bg-white text-gray-600 subpixel-antialiased selection:bg-gray-300 selection:text-gray-800;
+}
+
+#__nuxt {
+  @apply h-full;
+}
+
+.page-container {
+  @apply mx-auto px-4 py-8 sm:px-6 sm:py-10 md:max-w-7xl md:px-10 md:py-10;
+}
+
+.page-container-fluid {
+  @apply -mx-4 -my-8 sm:-mx-6 sm:-my-10 md:-mx-10 md:-my-10;
+}
+
+hr {
+  @apply my-8;
+}
+
+p + P {
+  // Space between paragraphs
+  @apply mt-3;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+[v-cloak] {
+  display: none;
+}

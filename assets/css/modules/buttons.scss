@@ -1,0 +1,39 @@
+.button {
+  @apply button-lg inline-flex cursor-pointer items-center justify-center space-x-2 whitespace-nowrap rounded-sm border-transparent px-3 py-1.5 text-xs font-normal leading-5 disabled:cursor-not-allowed disabled:opacity-70;
+}
+
+.button-primary {
+  @apply bg-primary hover:bg-primary-600 focus:ring-primary-400 text-white focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.button-secondary {
+  @apply border border-gray-200 bg-gradient-to-b from-white to-gray-100 text-gray-600 hover:from-white hover:via-gray-100 hover:to-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2;
+}
+
+.button-danger {
+  @apply border-danger-700 bg-danger-600 focus:ring-danger-700 active:bg-danger-700 disabled:active:bg-danger-600 border text-white focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.button-header {
+  @apply inline-flex h-10 w-full items-center justify-center bg-white px-1 text-xs font-normal text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2;
+}
+
+.button-dropdown {
+  @apply inline-flex w-full items-center py-1 px-3  hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2;
+}
+
+.button-icon {
+  @apply inline-flex items-center rounded-sm py-1 px-2 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-70;
+}
+
+.button-sm {
+  @apply px-2.5 py-1.5 text-xs font-light;
+}
+
+.button-lg {
+  @apply px-4 py-2 text-sm leading-6;
+}
+
+.button-xl {
+  @apply px-4 py-2 text-base leading-8;
+}

@@ -1,0 +1,270 @@
+// a class is automatically created for each icon variant below in atoms/icons
+// eg .icon--icon-name
+
+/*
+To ADD NEW ICONS
+
+Go to https://icomoon.io/app/#/select
+Click 'Import Icons'
+Select the file in this repository fonts/selection.json
+Click 'yes' to import the settings
+Select any additional items
+Click through to the 'Generate Font' step
+Download the new fonts files and selection.json, and place them in the fonts directory of this project
+Add new icon codes below - icon codes are shown in the 'Generate font' step
+ */
+$map-icons: (
+  'account': '\e900',
+  'add': '\e901',
+  'alarm': '\e902',
+  'arrow-left': '\e905',
+  'arrow-right': '\e906',
+  'arrow-up': '\ea3a',
+  'arrow-down': '\ea39',
+  'chevron-down': '\e90a',
+  'alert': '\e903',
+  'apps': '\e904',
+  'bag': '\e907',
+  'chart': '\e908',
+  'checklist': '\e909',
+  'close-no-circle': '\e90c',
+  'close': '\e90b',
+  'cog': '\e90d',
+  'question-open': '\e918',
+  'doc': '\e90e',
+  'home': '\e90f',
+  'home-variant': '\e910',
+  'info': '\e911',
+  'menu': '\e912',
+  'parcel': '\e913',
+  'location-pin': '\e914',
+  'play': '\e915',
+  'question': '\e917',
+  'search': '\e919',
+  'tag': '\e91a',
+  'tick': '\e91b',
+  'warning': '\e91c',
+  'tick-no-circle': '\e91d',
+  'addresses': '\e91e',
+  'id-card': '\e91f',
+  'lock': '\e920',
+  'logout': '\e921',
+  'reset': '\e922',
+  'pw': '\e916',
+  'home1': '\e923',
+  'home2': '\e924',
+  'office': '\e925',
+  'home3': '\e926',
+  'newspaper': '\e927',
+  'pencil': '\e928',
+  'pencil2': '\e929',
+  'quill': '\e92a',
+  'pen': '\e92b',
+  'blog': '\e92c',
+  'eyedropper': '\e92d',
+  'droplet': '\e92e',
+  'paint-format': '\e92f',
+  'image': '\e930',
+  'images': '\e931',
+  'camera': '\e932',
+  'headphones': '\e933',
+  'music': '\e934',
+  'play1': '\e935',
+  'film': '\e936',
+  'video-camera': '\e937',
+  'dice': '\e938',
+  'checklist1': '\e939',
+  'chart1': '\e93a',
+  'bullhorn': '\e93d',
+  'connection': '\e93e',
+  'podcast': '\e93f',
+  'feed': '\e940',
+  'mic': '\e941',
+  'book': '\e942',
+  'books': '\e943',
+  'library': '\e944',
+  'file-text': '\e945',
+  'profile': '\e946',
+  'file-empty': '\e947',
+  'files-empty': '\e948',
+  'file-text2': '\e949',
+  'file-picture': '\e94a',
+  'file-music': '\e94b',
+  'file-play': '\e94c',
+  'file-video': '\e94d',
+  'file-zip': '\e94e',
+  'copy': '\e94f',
+  'paste': '\e950',
+  'stack': '\e951',
+  'folder': '\e952',
+  'folder-open': '\e953',
+  'folder-plus': '\e954',
+  'folder-minus': '\e955',
+  'folder-download': '\e956',
+  'folder-upload': '\e957',
+  'price-tag': '\e958',
+  'price-tags': '\e959',
+  'cart': '\e95d',
+  'phone': '\e965',
+  'address-book': '\e967',
+  'envelop': '\e968',
+  'location2': '\e96b',
+  'alarm1': '\e973',
+  'calendar': '\e976',
+  'keyboard': '\e978',
+  'display': '\e979',
+  'mobile': '\e97b',
+  'floppy-disk': '\e985',
+  'bubble': '\e98e',
+  'user': '\e994',
+  'users': '\e995',
+  'user-plus': '\e996',
+  'user-minus': '\e997',
+  'spinner4': '\e9a0',
+  'spinner11': '\e9a7',
+  'search1': '\e9a9',
+  'zoom-in': '\e9aa',
+  'zoom-out': '\e9ab',
+  'enlarge': '\e9ac',
+  'enlarge2': '\e9ae',
+  'unlocked': '\e9b3',
+  'equalizer': '\e9b5',
+  'cog1': '\e9b7',
+  'bin': '\e9cf',
+  'bin2': '\e9d0',
+  'airplane': '\e9d2',
+  'truck': '\e9d3',
+  'switch': '\e9d9',
+  'menu1': '\e9e0',
+  'cloud-download': '\e9e5',
+  'download3': '\e9ea',
+  'upload3': '\e9eb',
+  'link': '\e9ee',
+  'attachment': '\e9f0',
+  'heart': '\e9fd',
+  'point-up': '\ea26',
+  'point-right': '\ea27',
+  'point-down': '\ea28',
+  'point-left': '\ea29',
+  'plus': '\ea2d',
+  'minus': '\ea2e',
+  'cancel-circle': '\ea30',
+  'blocked': '\ea31',
+  'cross': '\ea32',
+  'checkmark': '\ea33',
+  'checkmark2': '\ea34',
+  'arrow-up-left': '\ea54',
+  'circle-up': '\ea64',
+  'circle-right': '\ea65',
+  'circle-down': '\ea66',
+  'circle-left': '\ea67',
+  'mail2': '\eaa7',
+  'mail4': '\eaa9',
+  'google': '\eaab',
+  'google2': '\eaac',
+  'facebook': '\eab3',
+  'facebook2': '\eab4',
+  'instagram': '\eab5',
+  'whatsapp': '\eab6',
+  'spotify': '\eab7',
+  'telegram': '\eab8',
+  'twitter': '\eab9',
+  'vine': '\eaba',
+  'vk': '\eabb',
+  'renren': '\eabc',
+  'sina-weibo': '\eabd',
+  'rss': '\eabe',
+  'rss2': '\eabf',
+  'youtube': '\eac0',
+  'flickr': '\eac6',
+  'flickr2': '\eac7',
+  'android': '\eae3',
+  'skype': '\eae8',
+  'linkedin': '\eaec',
+  'chrome': '\eafc',
+  'firefox': '\eafd',
+  'IE': '\eafe',
+  'edge': '\eafd',
+  'notification-on': '\e95b',
+  'notification-off': '\e95a',
+  'star': '\e9da',
+  'star-empty': '\e9d7',
+  'pin': '\e95c',
+  'magic-wand': '\e998',
+  'tree': '\e9bc',
+  'menu4': '\e9bd',
+  'menu2': '\e9be',
+  'menu3': '\e9bf',
+  'menu41': '\e9c0',
+  'loop': '\ea2f',
+  'move-up': '\ea46',
+  'move-down': '\ea47',
+  'sort-alpha-asc': '\ea48',
+  'sort-alpha-desc': '\ea49',
+  'sort-numeric-asc': '\ea4a',
+  'sort-numeric-desc': '\ea4b',
+  'sort-amount-asc': '\ea4c',
+  'sort-amount-desc': '\ea4d',
+  'ctrl': '\ea50',
+  'new': '\e93c',
+  'warning-triangle': '\e93b',
+  'asterisk': '\f069',
+  'code': '\ea80',
+  'external-link': '\f08e',
+);
+
+// adds a before or after block to display the specified icon
+// the icon must be present in the $map-icons list in settings
+@mixin add-icon($beforeOrAfter: 'before', $iconName: null) {
+  &:#{$beforeOrAfter} {
+    display: block;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    @if ($beforeOrAfter == 'after') {
+      margin-left: 5px;
+    } @else if($beforeOrAfter == 'before') {
+      margin-right: 5px;
+    }
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    @if ($iconName) {
+      content: map_get($map-icons, $iconName);
+    }
+
+    @content;
+  }
+}
+
+.icon {
+  display: inline-block;
+  @include add-icon('before') {
+    margin: 0;
+  }
+}
+
+// a class is created for each icon in $map-icons in settings/icons
+// eg .icon--icon-name
+@each $name, $icon in $map-icons {
+  .icon--#{$name},
+
+    // create alternative named class for existing, incorrectly named icons
+    .icon-#{$name} {
+    &:before {
+      content: $icon;
+    }
+  }
+}
+
+.icon--animated-spin {
+  animation: 1.5s linear infinite spin;
+}
